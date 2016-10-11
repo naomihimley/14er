@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C787C421DAD7140001F656C /* 14ers.json in Resources */ = {isa = PBXBuildFile; fileRef = 8C787C411DAD7140001F656C /* 14ers.json */; };
 		8CF7F5561DA6EA8E0021CDE6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7F5551DA6EA8E0021CDE6 /* AppDelegate.swift */; };
 		8CF7F5581DA6EA8E0021CDE6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CF7F5571DA6EA8E0021CDE6 /* ViewController.swift */; };
 		8CF7F55B1DA6EA8E0021CDE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CF7F5591DA6EA8E0021CDE6 /* Main.storyboard */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8C787C411DAD7140001F656C /* 14ers.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 14ers.json; sourceTree = "<group>"; };
 		8CF7F5521DA6EA8E0021CDE6 /* 14er.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 14er.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CF7F5551DA6EA8E0021CDE6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CF7F5571DA6EA8E0021CDE6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				8CF7F55F1DA6EA8E0021CDE6 /* Assets.xcassets */,
+				8C787C411DAD7140001F656C /* 14ers.json */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -298,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8CF7F5631DA6EA8E0021CDE6 /* LaunchScreen.storyboard in Resources */,
+				8C787C421DAD7140001F656C /* 14ers.json in Resources */,
 				8CF7F5601DA6EA8E0021CDE6 /* Assets.xcassets in Resources */,
 				8CF7F55B1DA6EA8E0021CDE6 /* Main.storyboard in Resources */,
 			);
@@ -578,6 +582,7 @@
 				8CF7F57F1DA6EA8E0021CDE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CF7F5801DA6EA8E0021CDE6 /* Build configuration list for PBXNativeTarget "14erTests" */ = {
 			isa = XCConfigurationList;
@@ -586,6 +591,7 @@
 				8CF7F5821DA6EA8E0021CDE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8CF7F5831DA6EA8E0021CDE6 /* Build configuration list for PBXNativeTarget "14erUITests" */ = {
 			isa = XCConfigurationList;
@@ -594,6 +600,7 @@
 				8CF7F5851DA6EA8E0021CDE6 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
